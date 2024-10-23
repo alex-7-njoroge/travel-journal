@@ -1,0 +1,65 @@
+.users-page {
+  padding-top: 60px; /* Adjust this value based on your navbar height */
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+.users-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.users-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.user-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .user-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.loading, .error {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 50px;
+  color: #666;
+}
+
+.error {
+  color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+  .users-container {
+    padding: 15px;
+  }
+
+  .users-title {
+    font-size: 1.5rem;
+  }
+
+  .user-list {
+    grid-template-columns: 1fr;
+  }
+}

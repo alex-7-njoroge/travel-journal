@@ -1,0 +1,44 @@
+.globalPostsContainer {
+    background-color: #f0f2f5;
+    min-height: 100vh;
+}
+
+.globalPosts {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px 20px; /* Adjust top padding based on navbar height */
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.postsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.loading, .error {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px;
+    color: #666;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .postsGrid {
+        grid-template-columns: 1fr;
+    }
+}

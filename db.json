@@ -1,0 +1,87 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "name": "John Doe",
+        "desc": "Tech enthusiast and avid traveler",
+        "followers": 1200,
+        "total_comments": 300
+      },
+      {
+        "id": "user2",
+        "name": "Jane Smith",
+        "desc": "Foodie and culinary explorer",
+        "followers": 800,
+        "total_comments": 150
+      }
+    ],
+    "posts": [
+      {
+        "id": "2",
+        "user_id": "user1",
+        "title": "Exploring the Mountains",
+        "description": "I recently embarked on an unforgettable adventure through the Rocky Mountains. The journey was filled with breathtaking landscapes, towering peaks, and serene valleys. Hiking up the trails, I felt a sense of freedom as I was surrounded by untouched nature. The air was crisp and refreshing, a stark contrast to the hustle and bustle of city life. Each step revealed new vistas, from snow-capped mountains glistening in the sun to vast meadows blooming with wildflowers. I also encountered a variety of wildlife, from deer grazing peacefully to birds soaring overhead. The nights were equally mesmerizing, with the sky painted in countless stars, far away from any light pollution. Setting up camp was an experience in itself, as we huddled around the fire sharing stories and enjoying the calmness that enveloped us. This trip not only recharged my spirit but also gave me a deeper appreciation for nature and its wonders. I can’t wait to go back and explore even more hidden gems within these majestic mountains.",
+        "comments": [
+          {
+            "comment_id": "comment1",
+            "user": "Alice",
+            "content": "Looks amazing! I wish I could go there too."
+          },
+          {
+            "comment_id": "comment2",
+            "user": "Bob",
+            "content": "What a view! Thanks for sharing."
+          }
+        ],
+        "tags": ["travel", "mountains", "adventure"],
+        "image": "https://istreetapi.viralweb.co.ke/images/download.jpeg",
+        "upvotes": 150,
+        "downvotes": 5
+      },
+      {
+        "id": "3",
+        "user_id": "user1",
+        "title": "Tech Gadgets You Should Try in 2024",
+        "description": "As a tech enthusiast, I'm always on the lookout for the latest gadgets that can make life easier and more enjoyable. This year, several innovations have caught my attention. From AI-powered home assistants to wearable health monitors, the advancements are incredible. I recently tried a new smart thermostat that not only learns my temperature preferences but also adapts based on the weather forecast, saving both energy and money. Another gadget that stood out was a portable projector, perfect for movie nights anywhere. It’s compact, easy to set up, and delivers amazing picture quality. I also explored the world of virtual reality, and the immersive experience was beyond words. It's not just for gamers anymore; there are applications for fitness, travel, and even mental health. If you’re into photography, there are new drones with enhanced cameras and AI stabilization that make capturing stunning aerial shots a breeze. Overall, these gadgets are pushing the boundaries of technology, making it an exciting time to be a tech lover. If you’re considering adding some new tools to your collection, these are definitely worth a look.",
+        "comments": [
+          {
+            "comment_id": "comment3",
+            "user": "Charlie",
+            "content": "Great recommendations! I’ll check out the thermostat."
+          },
+          {
+            "comment_id": "comment4",
+            "user": "Dana",
+            "content": "I love my portable projector! Can’t live without it now."
+          }
+        ],
+        "tags": ["tech", "gadgets", "reviews"],
+        "image": "https://istreetapi.viralweb.co.ke/images/download.jpeg",
+        "upvotes": 200,
+        "downvotes": 10
+      },
+      {
+        "id": "post3",
+        "user_id": "user2",
+        "title": "A Journey Through Italian Cuisine",
+        "description": "Italian cuisine is a celebration of flavors, history, and tradition, each dish telling a story that spans generations. Recently, I had the opportunity to visit Italy and immerse myself in its culinary delights. From the bustling markets of Rome to the quaint eateries in Tuscany, I tasted dishes that were both simple and exquisite. The pasta was fresh, the sauces were rich, and every bite was a testament to the passion Italians have for their food. I learned how to make authentic pizza in Naples, and the experience was nothing short of magical. Rolling out the dough by hand, adding fresh tomato sauce, mozzarella, and basil, then cooking it in a wood-fired oven was an unforgettable experience. In Florence, I tried the famous Bistecca alla Fiorentina, a steak cooked to perfection. Everywhere I went, the locals shared their secrets and stories, and it was clear that food is at the heart of Italian culture. This journey not only satisfied my taste buds but also deepened my appreciation for the art of cooking.",
+        "comments": [
+          {
+            "comment_id": "comment5",
+            "user": "Emily",
+            "content": "This makes me want to go to Italy! Such beautiful descriptions."
+          },
+          {
+            "comment_id": "comment6",
+            "user": "Frank",
+            "content": "I’ve always wanted to try Bistecca alla Fiorentina. Sounds delicious!"
+          }
+        ],
+        "tags": ["food", "Italy", "travel"],
+        "image": "https://istreetapi.viralweb.co.ke/images/download.jpeg",
+        "upvotes": 250,
+        "downvotes": 3
+      }
+    ]
+  }
+  
